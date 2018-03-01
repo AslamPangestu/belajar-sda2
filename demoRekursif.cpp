@@ -1,11 +1,10 @@
 #include <iostream>
 using namespace std;
 
-//deklarasi 
+//Soal1?
 void HitungMundur(int);
 
 int main(){
-    //tipe data
     int angka;
 
     cout<<"Masukkan angka mulai hitung mundur : ";
@@ -15,6 +14,7 @@ int main(){
 }
 
 void HitungMundur(int angka){
+    //Soal2?
     if (angka > 0){
         cout<<angka<<"->";
         angka--;
